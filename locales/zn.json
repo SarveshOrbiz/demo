@@ -1,3 +1,27 @@
 { 
-    "demo":"坐落在充满活力的城市中，阿卡迪亚大厦的现代玻璃结构捕捉到了早晨的阳光，营造出一种诱人的氛围。豪华的大堂装饰着艺术品和绿植，在城市的活力中提供了一个宁静的避难所，真正体现了豪华的城市生活"
+    "customer-details":{ 
+        "title":"客户详情", 
+        "customer_name":{ 
+            "label":"客户姓名", 
+            "placeholder":"理查德·米勒" 
+        }, 
+        "customer_id":{ 
+            "label":"客户编号" 
+        },
+        "address":{
+            "label":"邮寄地址:",
+            "placeholder":"在此输入送货地址."
+        }
+    },
+    "order-details":{
+        "title":"订单详细信息",
+        "id":"订单编号",
+        "prod_name":"产品名称",
+        "price":"价格",
+        "quantity":"数量",
+        "total":"总价",
+        "sp_id":"营业员号码",
+        "orderedItems":"订购的商品",
+        "summary":"订单摘要"
+    } 
 }
